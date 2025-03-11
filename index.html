@@ -3,116 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Competitive Swimming</title>
     <style>
+        /* Reset default margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f8ff;
             color: #333;
-            margin: 0;
-            padding: 0;
+            line-height: 1.6;
+            padding: 20px;
         }
+
+        /* Header and navigation styling */
         header {
-            background-color: #005f73;
+            background-color: #0077b6;
             color: white;
+            padding: 10px 20px;
             text-align: center;
-            padding: 20px;
         }
-        nav {
-            background-color: #003d44;
-            overflow: hidden;
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
         }
-        nav a {
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
             color: white;
-            padding: 14px 20px;
             text-decoration: none;
-            display: inline-block;
+            font-weight: bold;
+            text-transform: uppercase;
         }
-        nav a:hover {
-            background-color: #d1d8e0;
+
+        nav ul li a:hover {
+            color: #90e0ef;
         }
+
+        /* Section styling */
         section {
-            padding: 20px;
+            margin: 30px 0;
         }
+
+        section h2 {
+            font-size: 2rem;
+            color: #0077b6;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: inside;
+            margin-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer styling */
         footer {
-            background-color: #003d44;
-            color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        h2 {
-            color: #005f73;
+            padding: 15px;
+            background-color: #0077b6;
+            color: white;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Competitive Swimming</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#gear">Gear</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>Welcome to Competitive Swimming</h1>
-    <p>All the information you need to dive into the world of competitive swimming</p>
-</header>
+    <section id="overview">
+        <h2>What is Competitive Swimming?</h2>
+        <p>Competitive swimming is a popular sport that involves racing in the water. Swimmers compete individually or as teams in various events, typically in a pool, with races focusing on different stroke techniques and distances.</p>
+    </section>
 
-<nav>
-    <a href="#about">About Swimming</a>
-    <a href="#rules">Rules & Regulations</a>
-    <a href="#training">Training Tips</a>
-    <a href="#events">Upcoming Events</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <section id="events">
+        <h2>Types of Competitive Swimming Events</h2>
+        <ul>
+            <li><strong>Freestyle</strong> – A race in which the swimmer can use any stroke, but the front crawl is typically used.</li>
+            <li><strong>Backstroke</strong> – A race where the swimmer must swim on their back using a flutter kick and alternating arm strokes.</li>
+            <li><strong>Breaststroke</strong> – A race in which the swimmer uses a frog-like stroke, with both arms moving simultaneously and a frog kick.</li>
+            <li><strong>Butterfly</strong> – A challenging stroke where both arms move together in a windmill motion while using a dolphin kick.</li>
+            <li><strong>Medley</strong> – A combination race where swimmers complete all four strokes (butterfly, backstroke, breaststroke, and freestyle) in that order.</li>
+        </ul>
+    </section>
 
-<section id="about">
-    <h2>About Competitive Swimming</h2>
-    <p>Competitive swimming is a sport where individuals or teams race against each other in pools. Athletes race in various strokes including freestyle, backstroke, breaststroke, and butterfly. The goal is to cover a set distance in the shortest time possible.</p>
-    <p>Swimmers train for strength, speed, and technique to achieve excellence in various events. Races can range from sprints to long-distance swims and are held in various competitions worldwide.</p>
-</section>
+    <section id="training">
+        <h2>Training for Competitive Swimming</h2>
+        <p>Competitive swimmers train intensively to improve their strength, endurance, and technique. This includes swimming laps, strength training, and refining each stroke for maximum speed and efficiency.</p>
+    </section>
 
-<section id="rules">
-    <h2>Rules & Regulations</h2>
-    <ul>
-        <li><strong>Freestyle:</strong> Swimmers may swim any style, though most use front crawl.</li>
-        <li><strong>Backstroke:</strong> Swimmers must swim on their back.</li>
-        <li><strong>Breaststroke:</strong> Swimmers must perform a frog-like stroke with both arms moving simultaneously.</li>
-        <li><strong>Butterfly:</strong> Both arms must move simultaneously, and the legs perform a dolphin kick.</li>
-        <li><strong>Relay:</strong> Teams of four swimmers compete in a set order, each swimming one leg of the race.</li>
-    </ul>
-</section>
+    <section id="gear">
+        <h2>Essential Gear for Competitive Swimming</h2>
+        <ul>
+            <li><strong>Swimsuit:</strong> A streamlined suit designed for performance.</li>
+            <li><strong>Goggles:</strong> Protects the eyes from chlorine while allowing clear vision underwater.</li>
+            <li><strong>Swim Cap:</strong> Reduces drag and keeps hair out of the face.</li>
+            <li><strong>Training Fins:</strong> Fins help to improve leg strength and swimming technique.</li>
+        </ul>
+    </section>
 
-<section id="training">
-    <h2>Training Tips</h2>
-    <p>To excel in competitive swimming, consistent training is key. Here are a few tips:</p>
-    <ul>
-        <li>Focus on building endurance through long swim sessions.</li>
-        <li>Incorporate strength training for overall muscle conditioning.</li>
-        <li>Perfect your technique, especially for starts, turns, and finishes.</li>
-        <li>Ensure you have a proper warm-up and cool-down routine to avoid injuries.</li>
-        <li>Stay hydrated and maintain a balanced diet to fuel your body for peak performance.</li>
-    </ul>
-</section>
-
-<section id="events">
-    <h2>Upcoming Events</h2>
-    <p>Check out these upcoming competitive swimming events:</p>
-    <ul>
-        <li><strong>National Swimming Championship:</strong> June 1-3, 2025</li>
-        <li><strong>World Swimming Trials:</strong> July 12-15, 2025</li>
-        <li><strong>International Invitational Meet:</strong> August 20-22, 2025</li>
-    </ul>
-</section>
-
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p>If you have any questions or need further information about competitive swimming, feel free to reach out!</p>
-    <p>Email: info@competitiveswim.com</p>
-    <p>Phone: (123) 456-7890</p>
-</section>
-
-<footer>
-    <p>&copy; 2025 Competitive Swimming. All rights reserved.</p>
-</footer>
-
+    <footer>
+        <p>&copy; 2025 Competitive Swimming Info</p>
+    </footer>
 </body>
 </html>
